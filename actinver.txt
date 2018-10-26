@@ -32,6 +32,7 @@ passwd karafadm
 
 alternatives --install /usr/bin/java java /usr/java/jdk1.8.0_191-amd64/bin/java 1
 alternatives --install "/usr/bin/javac" "javac" "/usr/java/jdk1.8.0_191-amd64/bin/javac" 1
+sudo alternatives --install /usr/bin/keytool keytool /usr/java/jdk1.8.0_191-amd64/bin/keytool 1
 
 
 karafadm        soft    nproc           65536
@@ -55,9 +56,104 @@ for server in {163..178}; do ssh -t karafadm@10.14.2.$server 'ssh-copy-id -i /op
 for server in {163..178}; do ssh -t karafadm@10.14.2.$server 'sudo systemctl stop firewalld'; done;
 for server in {163..178}; do ssh karafadm@10.14.2.$server 'rm -fv /opt/rh/fuse/jdk-8u191-linux-x64.rpm'; done;
 for server in {163..178}; do ssh karafadm@10.14.2.$server 'ls -la /opt/rh/fuse/'; done;
+for server in {161..178}; do ssh -t karafadm@10.14.2.$server 'sudo alternatives --install /usr/bin/keytool keytool /usr/java/jdk1.8.0_191-amd64/bin/keytool 1'; done;
 RedHat2018!
 
 
 fabric:create --clean --zookeeper-password RedHat2018! --zookeeper-data-dir zkdat --resolver manualip --manual-ip 10.14.2.160 --wait-for-provisioning
 fabric:container-create-ssh --jvm-opts "-Xms1G -Xmx2G" --profile fabric --resolver manualip --manual-ip 10.14.2.161 --host 10.14.2.161 --user karafadm --password RedHat2018! --path /opt/rh/fuse/v1plbivafuse02/ v1plbivafuse02
 
+fabric:container-create-ssh --jvm-opts "-Xms4G -Xmx8G" --profile default --resolver manualip --manual-ip 10.14.2.173 --host 10.14.2.173 --user karafadm --password RedHat2018! --zookeeper-password RedHat2018! --path /opt/rh/fuse/ brokermaster01
+fabric:container-create-ssh --jvm-opts "-Xms4G -Xmx8G" --profile default --resolver manualip --manual-ip 10.14.2.174 --host 10.14.2.174 --user karafadm --password RedHat2018! --zookeeper-password RedHat2018! --path /opt/rh/fuse/ brokerslave01
+
+mq-create --group grupo --assign-container brokermaster01 broker01
+mq-create --group grupo --assign-container brokerslave01 broker01
+
+for server in {161..178}; do ssh -t karafadm@10.14.2.$server 'sudo systemctl stop firewalld'; done;
+
+
+
+
+
+
+<!--
+
+     Copyright 2005-2014 Red Hat, Inc.
+
+     Red Hat licenses this file to you under the Apache License, version
+     2.0 (the "License"); you may not use this file except in compliance
+     with the License.  You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+     implied.  See the License for the specific language governing
+     permissions and limitations under the License.
+
+-->
+<beans
+  xmlns="http://www.springframework.org/schema/beans"
+  xmlns:amq="http://activemq.apache.org/schema/core"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+  http://activemq.apache.org/schema/core http://activemq.apache.org/schema/core/activemq-core.xsd">
+
+    <!-- Allows us to use system properties and fabric as variables in this configuration file -->
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="properties">
+            <bean class="io.fabric8.mq.fabric.ConfigurationProperties"/>
+        </property>
+    </bean>
+
+    <broker xmlns="http://activemq.apache.org/schema/core" brokerName="${broker-name}" dataDirectory="${data}" start="false" restartAllowed="false">
+
+        <destinationPolicy>
+            <policyMap>
+              <policyEntries>
+                <policyEntry topic=">" producerFlowControl="true">
+                  <pendingMessageLimitStrategy>
+                    <constantPendingMessageLimitStrategy limit="4096"/>
+                  </pendingMessageLimitStrategy>
+                </policyEntry>
+                <policyEntry queue=">" producerFlowControl="true" memoryLimit="4096mb">
+                </policyEntry>
+              </policyEntries>
+            </policyMap>
+        </destinationPolicy>
+
+        <managementContext>
+            <managementContext createConnector="false"/>
+        </managementContext>
+
+        <persistenceAdapter>
+            <kahaDB directory="${data}/kahadb"/>
+        </persistenceAdapter>
+
+        <plugins>
+            <jaasAuthenticationPlugin configuration="karaf" />
+        </plugins>
+
+        <systemUsage>
+            <systemUsage>
+                <memoryUsage>
+                    <memoryUsage percentOfJvmHeap="80"/>
+                </memoryUsage>
+                <storeUsage>
+                    <storeUsage limit="15 gb"/>
+                </storeUsage>
+                <tempUsage>
+                    <tempUsage limit="7 gb"/>
+                </tempUsage>
+            </systemUsage>
+        </systemUsage>
+
+        <transportConnectors>
+            <transportConnector name="openwire"     uri="tcp://0.0.0.0:61616"/>
+            <transportConnector name="amqp"         uri="amqp://0.0.0.0:61626"/>
+            <transportConnector name="stomp"        uri="stomp://0.0.0.0:61636"/>
+        </transportConnectors>
+    </broker>
+
+</beans>
