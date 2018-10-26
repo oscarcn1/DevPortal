@@ -1,0 +1,33 @@
+M4st3rC#13f
+v1plbivafuse01 
+
+
+mkdir -p /opt/rh/fuse/v1plbivafuse03
+useradd -d /opt/rh/fuse/v1plbivafuse03 -M -c 'Usuario administrador de Fuse' karafadm
+usermod -a -G wheel karafadm
+chown -R karafadm:karafadm /opt/rh/fuse/v1plbivafuse03
+passwd karafadm
+
+
+
+10.14.2.160     v1plbivafuse01 v1plbivafuse01.actinver.com.mx
+10.14.2.161     v1plbivafuse02 v1plbivafuse02.actinver.com.mx
+10.14.2.162     v1plbivafuse03 v1plbivafuse03.actinver.com.mx
+
+alternatives --install "/usr/bin/java" "java" "/usr/java/jdk1.8.0_191-amd64/bin/java" 1
+alternatives --install "/usr/bin/javac" "javac" "/usr/java/jdk1.8.0_191-amd64/bin/javac" 1
+
+
+karafadm        soft    nproc           65536
+karafadm        hard    nproc           65536
+karafadm        soft    nofile          65536
+karafadm        hard    nofile          65536
+karafadm        soft    priority        0
+karafadm        hard    priority        0
+
+
+ssh-copy-id -i /opt/rh/fuse/v1plbivafuse02/.ssh/id_rsa.pub karafadm@v1plbivafuse01
+
+
+fabric:create --clean --zookeeper-password RedHat2018! --zookeeper-data-dir zkdat --resolver manualip --manual-ip 10.14.2.160 --wait-for-provisioning
+fabric:container-create-ssh --jvm-opts "-Xms1G -Xmx2G" --profile fabric --resolver manualip --manual-ip 10.14.2.161 --host 10.14.2.161 --user karafadm --password RedHat2018! --path /opt/rh/fuse/v1plbivafuse02/ v1plbivafuse02
