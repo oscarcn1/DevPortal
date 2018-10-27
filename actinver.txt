@@ -27,7 +27,7 @@ passwd karafadm
 10.14.2.175     v1plbivafuse16 v1plbivafuse16.actinver.com.mx
 10.14.2.176     v1plbivafuse17 v1plbivafuse17.actinver.com.mx
 10.14.2.177     v1plbivafuse18 v1plbivafuse18.actinver.com.mx
-10.14.2.178     v1plbivafuse03 v1plbivafuse19.actinver.com.mx
+10.14.2.178     v1plbivafuse19 v1plbivafuse19.actinver.com.mx
 
 
 alternatives --install /usr/bin/java java /usr/java/jdk1.8.0_191-amd64/bin/java 1
@@ -157,3 +157,21 @@ for server in {161..178}; do ssh -t karafadm@10.14.2.$server 'sudo systemctl sto
     </broker>
 
 </beans>
+
+
+firewall-cmd --permanent --zone=public --add-rich-rule=' rule family="ipv4" source address="10.14.2.0/24" port protocol="tcp" port="44444" accept'
+firewall-cmd --permanent --zone=public --add-rich-rule=' rule family="ipv4" source address="10.14.2.0/24" port protocol="tcp" port="44445" accept'
+firewall-cmd --permanent --zone=public --add-rich-rule=' rule family="ipv4" source address="10.14.2.0/24" port protocol="tcp" port="61637" accept'
+firewall-cmd --permanent --zone=public --add-rich-rule=' rule family="ipv4" source address="10.14.2.0/24" port protocol="tcp" port="8101" accept'
+firewall-cmd --permanent --zone=public --add-rich-rule=' rule family="ipv4" source address="10.14.2.0/24" port protocol="tcp" port="8102" accept'
+firewall-cmd --permanent --zone=public --add-rich-rule=' rule family="ipv4" source address="10.14.2.0/24" port protocol="tcp" port="1099" accept'
+firewall-cmd --permanent --zone=public --add-rich-rule=' rule family="ipv4" source address="10.14.2.0/24" port protocol="tcp" port="1100" accept'
+firewall-cmd --permanent --zone=public --add-rich-rule=' rule family="ipv4" source address="10.14.2.0/24" port protocol="tcp" port="61617" accept'
+firewall-cmd --permanent --zone=public --add-rich-rule=' rule family="ipv4" source address="10.14.2.0/24" port protocol="tcp" port="61627" accept'
+firewall-cmd --permanent --zone=public --add-rich-rule=' rule family="ipv4" source address="10.14.2.0/24" port protocol="tcp" port="41541" accept'
+firewall-cmd --permanent --zone=public --add-rich-rule=' rule family="ipv4" source address="10.14.2.0/24" port protocol="tcp" port="38899" accept'
+firewall-cmd --zone=public --permanent --add-port=8181/tcp
+firewall-cmd --zone=public --permanent --add-port=8182/tcp
+firewall-cmd --zone=public --permanent --add-port=22/tcp
+firewall-cmd --reload
+
