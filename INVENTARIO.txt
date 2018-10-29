@@ -1,0 +1,927 @@
+10.14.2.160
+MEMORIA
+              total        used        free      shared  buff/cache   available
+Mem:           3.7G        968M        437M         11M        2.3G        2.4G
+Swap:          7.5G        520K        7.4G
+PARTICIONES
+Filesystem                   Size  Used Avail Use% Mounted on
+/dev/mapper/vg_root-lv_root  9.9G   71M  9.8G   1% /
+devtmpfs                     1.9G     0  1.9G   0% /dev
+tmpfs                        1.9G     0  1.9G   0% /dev/shm
+tmpfs                        1.9G   12M  1.9G   1% /run
+tmpfs                        1.9G     0  1.9G   0% /sys/fs/cgroup
+/dev/mapper/vg_usr-lv_usr     12G  1.9G   11G  16% /usr
+/dev/mapper/vg_home-lv_home  1.9G  816M  1.1G  43% /home
+/dev/mapper/vg_opt-lv_opt     20G  1.5G   19G   8% /opt
+/dev/mapper/vg_tmp-lv_tmp    1.9G   96M  1.8G   6% /tmp
+/dev/mapper/vg_var-lv_var    3.9G  1.5G  2.5G  37% /var
+/dev/sda1                    497M  207M  290M  42% /boot
+tmpfs                        378M     0  378M   0% /run/user/1002
+PROCESADOR
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                2
+On-line CPU(s) list:   0,1
+Thread(s) per core:    1
+Core(s) per socket:    1
+Socket(s):             2
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 45
+Model name:            Intel(R) Xeon(R) CPU E5-2690 0 @ 2.90GHz
+Stepping:              7
+CPU MHz:               2899.999
+BogoMIPS:              5799.99
+Hypervisor vendor:     VMware
+Virtualization type:   full
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              20480K
+NUMA node0 CPU(s):     0,1
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology tsc_reliable nonstop_tsc eagerfpu pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm tsc_adjust arat
+OPT
+total 0
+drwxr-xr-x. 3 root root 27 Oct 26 11:59 fuse
+dr-xr-xr-x. 3 root root 30 Oct 26 11:00 python27
+10.14.2.161
+MEMORIA
+              total        used        free      shared  buff/cache   available
+Mem:           3.7G        894M        374M         11M        2.4G        2.5G
+Swap:          7.5G          0B        7.5G
+PARTICIONES
+Filesystem                   Size  Used Avail Use% Mounted on
+/dev/mapper/vg_root-lv_root  9.9G   73M  9.8G   1% /
+devtmpfs                     1.9G     0  1.9G   0% /dev
+tmpfs                        1.9G     0  1.9G   0% /dev/shm
+tmpfs                        1.9G   12M  1.9G   1% /run
+tmpfs                        1.9G     0  1.9G   0% /sys/fs/cgroup
+/dev/mapper/vg_usr-lv_usr    9.9G  1.9G  8.0G  19% /usr
+/dev/mapper/vg_home-lv_home  1.9G   33M  1.9G   2% /home
+/dev/mapper/vg_opt-lv_opt     20G  528M   20G   3% /opt
+/dev/mapper/vg_var-lv_var    3.9G  816M  3.1G  21% /var
+/dev/sda1                    497M  195M  303M  40% /boot
+/dev/mapper/vg_tmp-lv_tmp    1.9G  197M  1.7G  11% /tmp
+tmpfs                        378M     0  378M   0% /run/user/1002
+PROCESADOR
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                2
+On-line CPU(s) list:   0,1
+Thread(s) per core:    1
+Core(s) per socket:    1
+Socket(s):             2
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 45
+Model name:            Intel(R) Xeon(R) CPU E5-2690 0 @ 2.90GHz
+Stepping:              7
+CPU MHz:               2899.999
+BogoMIPS:              5799.99
+Hypervisor vendor:     VMware
+Virtualization type:   full
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              20480K
+NUMA node0 CPU(s):     0,1
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology tsc_reliable nonstop_tsc pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm tsc_adjust arat
+OPT
+total 0
+drwxr-xr-x. 3 root root 27 Oct 26 13:36 fuse
+dr-xr-xr-x. 3 root root 30 Oct 26 12:18 python27
+10.14.2.162
+MEMORIA
+              total        used        free      shared  buff/cache   available
+Mem:           3.7G        917M        323M         19M        2.5G        2.4G
+Swap:          7.5G          0B        7.5G
+PARTICIONES
+Filesystem                   Size  Used Avail Use% Mounted on
+/dev/mapper/vg_root-lv_root  9.9G   73M  9.8G   1% /
+devtmpfs                     1.9G     0  1.9G   0% /dev
+tmpfs                        1.9G     0  1.9G   0% /dev/shm
+tmpfs                        1.9G   20M  1.9G   2% /run
+tmpfs                        1.9G     0  1.9G   0% /sys/fs/cgroup
+/dev/mapper/vg_usr-lv_usr    9.9G  1.9G  8.0G  19% /usr
+/dev/mapper/vg_opt-lv_opt     20G  559M   20G   3% /opt
+/dev/mapper/vg_tmp-lv_tmp    1.9G  197M  1.7G  11% /tmp
+/dev/mapper/vg_var-lv_var    3.9G  823M  3.1G  21% /var
+/dev/mapper/vg_home-lv_home  1.9G   33M  1.9G   2% /home
+/dev/sda1                    497M  195M  303M  40% /boot
+tmpfs                        378M     0  378M   0% /run/user/1002
+PROCESADOR
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                2
+On-line CPU(s) list:   0,1
+Thread(s) per core:    1
+Core(s) per socket:    1
+Socket(s):             2
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 45
+Model name:            Intel(R) Xeon(R) CPU E5-2690 0 @ 2.90GHz
+Stepping:              7
+CPU MHz:               2899.999
+BogoMIPS:              5799.99
+Hypervisor vendor:     VMware
+Virtualization type:   full
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              20480K
+NUMA node0 CPU(s):     0,1
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology tsc_reliable nonstop_tsc pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm tsc_adjust arat
+OPT
+total 0
+drwxr-xr-x. 3 root root 27 Oct 26 13:51 fuse
+dr-xr-xr-x. 3 root root 30 Oct 26 12:18 python27
+10.14.2.163
+MEMORIA
+              total        used        free      shared  buff/cache   available
+Mem:           6.6G        732M        5.0G         86M        937M        5.5G
+Swap:          7.5G          0B        7.5G
+PARTICIONES
+Filesystem                           Size  Used Avail Use% Mounted on
+/dev/mapper/vg_root-lv_root          9.9G   76M  9.8G   1% /
+devtmpfs                             3.4G     0  3.4G   0% /dev
+tmpfs                                3.4G   75M  3.3G   3% /dev/shm
+tmpfs                                3.4G   12M  3.4G   1% /run
+tmpfs                                3.4G     0  3.4G   0% /sys/fs/cgroup
+/dev/mapper/vg_usr-lv_usr            9.9G  2.0G  8.0G  20% /usr
+/dev/mapper/vg_var-lv_var            3.9G  2.0G  2.0G  51% /var
+/dev/mapper/vg_home-lv_home          1.9G   33M  1.9G   2% /home
+/dev/mapper/vg_tmp-lv_tmp            1.9G  246M  1.7G  13% /tmp
+/dev/mapper/vg_opt-lv_opt             20G  640M   20G   4% /opt
+/dev/sda1                            497M  207M  290M  42% /boot
+/dev/mapper/clFuse01_vg-clFuse01_lv   20G  259M   20G   2% /opt/shared
+tmpfs                                680M     0  680M   0% /run/user/1001
+tmpfs                                680M     0  680M   0% /run/user/1002
+PROCESADOR
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                2
+On-line CPU(s) list:   0,1
+Thread(s) per core:    1
+Core(s) per socket:    1
+Socket(s):             2
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 45
+Model name:            Intel(R) Xeon(R) CPU E5-2690 0 @ 2.90GHz
+Stepping:              7
+CPU MHz:               2900.000
+BogoMIPS:              5800.00
+Hypervisor vendor:     VMware
+Virtualization type:   full
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              20480K
+NUMA node0 CPU(s):     0,1
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology tsc_reliable nonstop_tsc eagerfpu pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm tsc_adjust arat
+OPT
+total 4
+drwxr-xr-x. 6 karafadm karafadm 4096 Oct 29 09:01 fuse
+drwxr-xr-x. 2 karafadm karafadm   30 Oct 29 08:57 jbossfuse
+dr-xr-xr-x. 3 root     root       30 Oct 26 12:57 python27
+10.14.2.164
+MEMORIA
+              total        used        free      shared  buff/cache   available
+Mem:           6.6G        725M        5.3G         71M        622M        5.6G
+Swap:          7.5G          0B        7.5G
+PARTICIONES
+Filesystem                           Size  Used Avail Use% Mounted on
+/dev/mapper/vg_root-lv_root          9.9G   75M  9.8G   1% /
+devtmpfs                             3.4G     0  3.4G   0% /dev
+tmpfs                                3.4G   60M  3.3G   2% /dev/shm
+tmpfs                                3.4G   12M  3.4G   1% /run
+tmpfs                                3.4G     0  3.4G   0% /sys/fs/cgroup
+/dev/mapper/vg_usr-lv_usr            9.9G  2.0G  8.0G  20% /usr
+/dev/mapper/vg_var-lv_var            3.9G  1.5G  2.4G  39% /var
+/dev/mapper/vg_home-lv_home          1.9G   33M  1.9G   2% /home
+/dev/mapper/vg_tmp-lv_tmp            1.9G  242M  1.7G  13% /tmp
+/dev/sda1                            497M  207M  290M  42% /boot
+/dev/mapper/vg_opt-lv_opt             20G  483M   20G   3% /opt
+/dev/mapper/clFuse01_vg-clFuse01_lv   20G  259M   20G   2% /opt/shared
+tmpfs                                680M     0  680M   0% /run/user/1002
+PROCESADOR
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                2
+On-line CPU(s) list:   0,1
+Thread(s) per core:    1
+Core(s) per socket:    1
+Socket(s):             2
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 45
+Model name:            Intel(R) Xeon(R) CPU E5-2690 0 @ 2.90GHz
+Stepping:              7
+CPU MHz:               2900.000
+BogoMIPS:              5800.00
+Hypervisor vendor:     VMware
+Virtualization type:   full
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              20480K
+NUMA node0 CPU(s):     0,1
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology tsc_reliable nonstop_tsc eagerfpu pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm tsc_adjust arat
+OPT
+total 4
+drwxr-xr-x. 6 karafadm karafadm 4096 Oct 29 09:04 fuse
+drwxr-xr-x. 2 karafadm karafadm   30 Oct 29 08:55 jbossfuse
+dr-xr-xr-x. 3 root     root       30 Oct 26 12:57 python27
+10.14.2.165
+MEMORIA
+              total        used        free      shared  buff/cache   available
+Mem:           7.6G        2.5G        2.4G         19M        2.8G        4.7G
+Swap:          7.5G          0B        7.5G
+PARTICIONES
+Filesystem                   Size  Used Avail Use% Mounted on
+/dev/mapper/vg_root-lv_root  9.9G   73M  9.8G   1% /
+devtmpfs                     3.8G     0  3.8G   0% /dev
+tmpfs                        3.9G     0  3.9G   0% /dev/shm
+tmpfs                        3.9G   20M  3.8G   1% /run
+tmpfs                        3.9G     0  3.9G   0% /sys/fs/cgroup
+/dev/mapper/vg_usr-lv_usr    9.9G  1.9G  8.0G  19% /usr
+/dev/mapper/vg_home-lv_home  1.9G   33M  1.9G   2% /home
+/dev/mapper/vg_opt-lv_opt     20G  615M   20G   4% /opt
+/dev/sda1                    497M  195M  303M  40% /boot
+/dev/mapper/vg_var-lv_var    3.9G  822M  3.1G  21% /var
+/dev/mapper/vg_tmp-lv_tmp    1.9G  197M  1.7G  11% /tmp
+tmpfs                        781M     0  781M   0% /run/user/1002
+PROCESADOR
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                4
+On-line CPU(s) list:   0-3
+Thread(s) per core:    1
+Core(s) per socket:    2
+Socket(s):             2
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 45
+Model name:            Intel(R) Xeon(R) CPU E5-2690 0 @ 2.90GHz
+Stepping:              7
+CPU MHz:               2900.000
+BogoMIPS:              5800.00
+Hypervisor vendor:     VMware
+Virtualization type:   full
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              20480K
+NUMA node0 CPU(s):     0-3
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss ht syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology tsc_reliable nonstop_tsc pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm tsc_adjust arat
+OPT
+total 4
+drwxr-xr-x. 6 karafadm karafadm 4096 Oct 26 20:09 fuse
+dr-xr-xr-x. 3 root     root       30 Oct 26 13:14 python27
+10.14.2.166
+MEMORIA
+              total        used        free      shared  buff/cache   available
+Mem:           7.6G        3.1G        1.6G         11M        3.0G        4.2G
+Swap:          7.5G          0B        7.5G
+PARTICIONES
+Filesystem                   Size  Used Avail Use% Mounted on
+/dev/mapper/vg_root-lv_root  9.9G   73M  9.8G   1% /
+devtmpfs                     3.8G     0  3.8G   0% /dev
+tmpfs                        3.9G     0  3.9G   0% /dev/shm
+tmpfs                        3.9G   12M  3.8G   1% /run
+tmpfs                        3.9G     0  3.9G   0% /sys/fs/cgroup
+/dev/mapper/vg_usr-lv_usr    9.9G  1.9G  8.0G  19% /usr
+/dev/mapper/vg_opt-lv_opt     20G  857M   20G   5% /opt
+/dev/sda1                    497M  195M  303M  40% /boot
+/dev/mapper/vg_var-lv_var    3.9G  822M  3.1G  21% /var
+/dev/mapper/vg_home-lv_home  1.9G   33M  1.9G   2% /home
+/dev/mapper/vg_tmp-lv_tmp    1.9G  197M  1.7G  11% /tmp
+tmpfs                        781M     0  781M   0% /run/user/1002
+PROCESADOR
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                6
+On-line CPU(s) list:   0-5
+Thread(s) per core:    1
+Core(s) per socket:    1
+Socket(s):             6
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 45
+Model name:            Intel(R) Xeon(R) CPU E5-2690 0 @ 2.90GHz
+Stepping:              7
+CPU MHz:               2900.000
+BogoMIPS:              5800.00
+Hypervisor vendor:     VMware
+Virtualization type:   full
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              20480K
+NUMA node0 CPU(s):     0-5
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology tsc_reliable nonstop_tsc pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm tsc_adjust arat
+OPT
+total 0
+drwxr-xr-x. 5 karafadm karafadm 78 Oct 26 18:20 fuse
+drwxr-xr-x. 2 karafadm karafadm 27 Oct 29 09:32 jbossfuse
+drwxr-xr-x. 3 karafadm karafadm 30 Oct 26 13:14 python27
+10.14.2.167
+MEMORIA
+              total        used        free      shared  buff/cache   available
+Mem:            13G        4.4G        6.5G         19M        2.6G        8.7G
+Swap:          7.5G          0B        7.5G
+PARTICIONES
+Filesystem                   Size  Used Avail Use% Mounted on
+/dev/mapper/vg_root-lv_root  9.9G   73M  9.8G   1% /
+devtmpfs                     6.8G     0  6.8G   0% /dev
+tmpfs                        6.8G     0  6.8G   0% /dev/shm
+tmpfs                        6.8G   20M  6.8G   1% /run
+tmpfs                        6.8G     0  6.8G   0% /sys/fs/cgroup
+/dev/mapper/vg_usr-lv_usr    9.9G  1.9G  8.0G  19% /usr
+/dev/sda1                    497M  195M  303M  40% /boot
+/dev/mapper/vg_home-lv_home  1.9G   33M  1.9G   2% /home
+/dev/mapper/vg_opt-lv_opt     20G  442M   20G   3% /opt
+/dev/mapper/vg_var-lv_var    3.9G  823M  3.1G  21% /var
+/dev/mapper/vg_tmp-lv_tmp    1.9G  197M  1.7G  11% /tmp
+tmpfs                        1.4G     0  1.4G   0% /run/user/1002
+PROCESADOR
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                6
+On-line CPU(s) list:   0-5
+Thread(s) per core:    1
+Core(s) per socket:    1
+Socket(s):             6
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 45
+Model name:            Intel(R) Xeon(R) CPU E5-2690 0 @ 2.90GHz
+Stepping:              7
+CPU MHz:               2899.999
+BogoMIPS:              5799.99
+Hypervisor vendor:     VMware
+Virtualization type:   full
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              20480K
+NUMA node0 CPU(s):     0-5
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology tsc_reliable nonstop_tsc pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm tsc_adjust arat
+OPT
+total 8
+drwxr-xr-x. 2 karafadm karafadm 4096 Oct 26 21:26 divisor
+drwxr-xr-x. 7 karafadm karafadm 4096 Oct 26 21:27 fuse
+dr-xr-xr-x. 3 root     root       30 Oct 26 13:30 python27
+10.14.2.168
+MEMORIA
+              total        used        free      shared  buff/cache   available
+Mem:            13G        5.4G        5.8G         86M        2.3G        7.7G
+Swap:          7.5G          0B        7.5G
+PARTICIONES
+Filesystem                           Size  Used Avail Use% Mounted on
+/dev/mapper/vg_root-lv_root          9.9G   72M  9.8G   1% /
+devtmpfs                             6.8G     0  6.8G   0% /dev
+tmpfs                                6.8G   75M  6.7G   2% /dev/shm
+tmpfs                                6.8G   12M  6.8G   1% /run
+tmpfs                                6.8G     0  6.8G   0% /sys/fs/cgroup
+/dev/mapper/vg_usr-lv_usr            9.9G  2.0G  8.0G  20% /usr
+/dev/mapper/vg_var-lv_var            3.9G  891M  3.0G  23% /var
+/dev/mapper/vg_tmp-lv_tmp            1.9G  197M  1.7G  11% /tmp
+/dev/mapper/vg_home-lv_home          1.9G   33M  1.9G   2% /home
+/dev/sda1                            497M  207M  290M  42% /boot
+/dev/mapper/clFuse02_vg-clFuse02_lv   20G  388M   20G   2% /shared
+/dev/mapper/vg_opt-lv_opt             20G  1.8G   19G   9% /opt
+tmpfs                                1.4G     0  1.4G   0% /run/user/1002
+PROCESADOR
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                6
+On-line CPU(s) list:   0-5
+Thread(s) per core:    1
+Core(s) per socket:    1
+Socket(s):             6
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 45
+Model name:            Intel(R) Xeon(R) CPU E5-2690 0 @ 2.90GHz
+Stepping:              7
+CPU MHz:               2900.000
+BogoMIPS:              5800.00
+Hypervisor vendor:     VMware
+Virtualization type:   full
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              20480K
+NUMA node0 CPU(s):     0-5
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology tsc_reliable nonstop_tsc eagerfpu pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm tsc_adjust arat
+OPT
+total 4
+drwxrwxr-x. 5 karafadm karafadm   33 Oct 29 10:26 binarios
+drwxr-xr-x. 7 karafadm karafadm 4096 Oct 29 10:41 fuse
+10.14.2.169
+MEMORIA
+              total        used        free      shared  buff/cache   available
+Mem:            13G        4.9G        6.5G         71M        2.0G        8.1G
+Swap:          7.5G          0B        7.5G
+PARTICIONES
+Filesystem                           Size  Used Avail Use% Mounted on
+/dev/mapper/vg_root-lv_root          9.9G   72M  9.8G   1% /
+devtmpfs                             6.8G     0  6.8G   0% /dev
+tmpfs                                6.8G   60M  6.8G   1% /dev/shm
+tmpfs                                6.8G   12M  6.8G   1% /run
+tmpfs                                6.8G     0  6.8G   0% /sys/fs/cgroup
+/dev/mapper/vg_usr-lv_usr            9.9G  2.0G  8.0G  20% /usr
+/dev/mapper/vg_home-lv_home          1.9G   33M  1.9G   2% /home
+/dev/mapper/vg_var-lv_var            3.9G  882M  3.0G  23% /var
+/dev/mapper/vg_tmp-lv_tmp            1.9G  197M  1.7G  11% /tmp
+/dev/sda1                            497M  207M  290M  42% /boot
+/dev/mapper/clFuse02_vg-clFuse02_lv   20G  388M   20G   2% /shared
+/dev/mapper/vg_opt-lv_opt             20G  1.5G   19G   8% /opt
+tmpfs                                1.4G     0  1.4G   0% /run/user/1002
+PROCESADOR
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                6
+On-line CPU(s) list:   0-5
+Thread(s) per core:    1
+Core(s) per socket:    1
+Socket(s):             6
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 45
+Model name:            Intel(R) Xeon(R) CPU E5-2690 0 @ 2.90GHz
+Stepping:              7
+CPU MHz:               2900.000
+BogoMIPS:              5800.00
+Hypervisor vendor:     VMware
+Virtualization type:   full
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              20480K
+NUMA node0 CPU(s):     0-5
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology tsc_reliable nonstop_tsc eagerfpu pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm tsc_adjust arat
+OPT
+total 4
+drwxr-xr-x. 5 karafadm karafadm   33 Oct 29 10:35 binarios
+drwxr-xr-x. 7 karafadm karafadm 4096 Oct 29 10:43 fuse
+10.14.2.170
+MEMORIA
+              total        used        free      shared  buff/cache   available
+Mem:            13G        3.9G        7.8G         71M        1.8G        9.2G
+Swap:          7.5G          0B        7.5G
+PARTICIONES
+Filesystem                           Size  Used Avail Use% Mounted on
+/dev/mapper/vg_root-lv_root          9.9G   72M  9.8G   1% /
+devtmpfs                             6.8G     0  6.8G   0% /dev
+tmpfs                                6.8G   60M  6.8G   1% /dev/shm
+tmpfs                                6.8G   12M  6.8G   1% /run
+tmpfs                                6.8G     0  6.8G   0% /sys/fs/cgroup
+/dev/mapper/vg_usr-lv_usr            9.9G  2.0G  8.0G  20% /usr
+/dev/mapper/vg_home-lv_home          1.9G   33M  1.9G   2% /home
+/dev/mapper/vg_tmp-lv_tmp            1.9G  197M  1.7G  11% /tmp
+/dev/mapper/vg_var-lv_var            3.9G  850M  3.1G  22% /var
+/dev/sda1                            497M  207M  290M  42% /boot
+/dev/mapper/clFuse02_vg-clFuse02_lv   20G  388M   20G   2% /shared
+/dev/mapper/vg_opt-lv_opt             20G  1.3G   19G   7% /opt
+tmpfs                                1.4G     0  1.4G   0% /run/user/1002
+PROCESADOR
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                6
+On-line CPU(s) list:   0-5
+Thread(s) per core:    1
+Core(s) per socket:    1
+Socket(s):             6
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 45
+Model name:            Intel(R) Xeon(R) CPU E5-2690 0 @ 2.90GHz
+Stepping:              7
+CPU MHz:               2900.000
+BogoMIPS:              5800.00
+Hypervisor vendor:     VMware
+Virtualization type:   full
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              20480K
+NUMA node0 CPU(s):     0-5
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology tsc_reliable nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm epb tsc_adjust dtherm ida arat pln pts
+OPT
+total 4
+drwxrwxr-x. 6 karafadm karafadm   47 Oct 29 10:37 binarios
+drwxr-xr-x. 7 karafadm karafadm 4096 Oct 29 10:44 fuse
+10.14.2.171
+MEMORIA
+              total        used        free      shared  buff/cache   available
+Mem:           7.6G        2.3G        2.6G         19M        2.7G        4.9G
+Swap:          7.5G          0B        7.5G
+PARTICIONES
+Filesystem                   Size  Used Avail Use% Mounted on
+/dev/mapper/vg_root-lv_root  9.9G   73M  9.8G   1% /
+devtmpfs                     3.8G     0  3.8G   0% /dev
+tmpfs                        3.9G     0  3.9G   0% /dev/shm
+tmpfs                        3.9G   20M  3.8G   1% /run
+tmpfs                        3.9G     0  3.9G   0% /sys/fs/cgroup
+/dev/mapper/vg_usr-lv_usr    9.9G  1.9G  8.0G  19% /usr
+/dev/mapper/vg_home-lv_home  1.9G   33M  1.9G   2% /home
+/dev/mapper/vg_tmp-lv_tmp    1.9G  197M  1.7G  11% /tmp
+/dev/mapper/vg_opt-lv_opt     20G  647M   20G   4% /opt
+/dev/sda1                    497M  195M  303M  40% /boot
+/dev/mapper/vg_var-lv_var    3.9G  812M  3.1G  21% /var
+tmpfs                        781M     0  781M   0% /run/user/1002
+PROCESADOR
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                4
+On-line CPU(s) list:   0-3
+Thread(s) per core:    1
+Core(s) per socket:    1
+Socket(s):             4
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 45
+Model name:            Intel(R) Xeon(R) CPU E5-2690 0 @ 2.90GHz
+Stepping:              7
+CPU MHz:               2900.000
+BogoMIPS:              5800.00
+Hypervisor vendor:     VMware
+Virtualization type:   full
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              20480K
+NUMA node0 CPU(s):     0-3
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology tsc_reliable nonstop_tsc pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm tsc_adjust arat
+OPT
+total 0
+drwxr-xr-x. 5 karafadm karafadm 78 Oct 26 18:24 fuse
+dr-xr-xr-x. 3 karafadm karafadm 30 Oct 26 13:59 python27
+10.14.2.172
+MEMORIA
+              total        used        free      shared  buff/cache   available
+Mem:           3.7G        172M        3.1G         11M        427M        3.2G
+Swap:          7.5G          0B        7.5G
+PARTICIONES
+Filesystem                   Size  Used Avail Use% Mounted on
+/dev/mapper/vg_root-lv_root  9.9G   71M  9.8G   1% /
+devtmpfs                     1.9G     0  1.9G   0% /dev
+tmpfs                        1.9G     0  1.9G   0% /dev/shm
+tmpfs                        1.9G   12M  1.9G   1% /run
+tmpfs                        1.9G     0  1.9G   0% /sys/fs/cgroup
+/dev/mapper/vg_usr-lv_usr    9.9G  1.9G  8.1G  19% /usr
+/dev/sda1                    497M  207M  290M  42% /boot
+/dev/mapper/vg_home-lv_home  1.9G   33M  1.9G   2% /home
+/dev/mapper/vg_tmp-lv_tmp    1.9G  197M  1.7G  11% /tmp
+/dev/mapper/vg_var-lv_var    3.9G  821M  3.1G  21% /var
+/dev/mapper/vg_opt-lv_opt     20G   34M   20G   1% /opt
+tmpfs                        378M     0  378M   0% /run/user/1002
+PROCESADOR
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                4
+On-line CPU(s) list:   0-3
+Thread(s) per core:    1
+Core(s) per socket:    1
+Socket(s):             4
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 45
+Model name:            Intel(R) Xeon(R) CPU E5-2690 0 @ 2.90GHz
+Stepping:              7
+CPU MHz:               2900.000
+BogoMIPS:              5800.00
+Hypervisor vendor:     VMware
+Virtualization type:   full
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              20480K
+NUMA node0 CPU(s):     0-3
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology tsc_reliable nonstop_tsc eagerfpu pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm tsc_adjust arat
+OPT
+total 0
+drwxr-xr-x. 3 karafadm karafadm 37 Oct 29 11:19 fuse
+10.14.2.173
+MEMORIA
+              total        used        free      shared  buff/cache   available
+Mem:           9.6G        5.0G        3.8G         86M        773M        4.2G
+Swap:          7.5G          0B        7.5G
+PARTICIONES
+Filesystem                           Size  Used Avail Use% Mounted on
+/dev/mapper/vg_root-lv_root          9.9G   72M  9.8G   1% /
+devtmpfs                             4.8G     0  4.8G   0% /dev
+tmpfs                                4.8G   76M  4.8G   2% /dev/shm
+tmpfs                                4.8G   12M  4.8G   1% /run
+tmpfs                                4.8G     0  4.8G   0% /sys/fs/cgroup
+/dev/mapper/vg_usr-lv_usr            9.9G  2.0G  8.0G  20% /usr
+/dev/mapper/vg_opt-lv_opt             20G  761M   20G   4% /opt
+/dev/mapper/vg_tmp-lv_tmp            1.9G  197M  1.7G  11% /tmp
+/dev/mapper/vg_var-lv_var            3.9G  846M  3.1G  22% /var
+/dev/mapper/vg_home-lv_home          1.9G   33M  1.9G   2% /home
+/dev/sda1                            497M  207M  290M  42% /boot
+/dev/mapper/clFuse03_vg-clFuse03_lv  100G  2.8G   98G   3% /shared
+tmpfs                                983M     0  983M   0% /run/user/1002
+PROCESADOR
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                6
+On-line CPU(s) list:   0-5
+Thread(s) per core:    1
+Core(s) per socket:    1
+Socket(s):             6
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 45
+Model name:            Intel(R) Xeon(R) CPU E5-2690 0 @ 2.90GHz
+Stepping:              7
+CPU MHz:               2900.000
+BogoMIPS:              5800.00
+Hypervisor vendor:     VMware
+Virtualization type:   full
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              20480K
+NUMA node0 CPU(s):     0-5
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology tsc_reliable nonstop_tsc eagerfpu pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm tsc_adjust arat
+OPT
+total 0
+drwxr-xr-x. 6 karafadm karafadm 102 Oct 26 16:59 fuse
+dr-xr-xr-x. 3 root     root      30 Oct 26 14:24 python27
+10.14.2.174
+MEMORIA
+              total        used        free      shared  buff/cache   available
+Mem:           9.6G        4.9G        4.0G         71M        686M        4.3G
+Swap:          7.5G          0B        7.5G
+PARTICIONES
+Filesystem                           Size  Used Avail Use% Mounted on
+/dev/mapper/vg_root-lv_root          9.9G   72M  9.8G   1% /
+devtmpfs                             4.8G     0  4.8G   0% /dev
+tmpfs                                4.8G   60M  4.8G   2% /dev/shm
+tmpfs                                4.8G   12M  4.8G   1% /run
+tmpfs                                4.8G     0  4.8G   0% /sys/fs/cgroup
+/dev/mapper/vg_usr-lv_usr            9.9G  2.0G  8.0G  20% /usr
+/dev/mapper/vg_tmp-lv_tmp            1.9G  197M  1.7G  11% /tmp
+/dev/mapper/vg_home-lv_home          1.9G   33M  1.9G   2% /home
+/dev/mapper/vg_var-lv_var            3.9G  851M  3.1G  22% /var
+/dev/sda1                            497M  207M  290M  42% /boot
+/dev/mapper/vg_opt-lv_opt             20G  760M   20G   4% /opt
+/dev/mapper/clFuse03_vg-clFuse03_lv  100G  2.8G   98G   3% /shared
+tmpfs                                983M     0  983M   0% /run/user/1002
+PROCESADOR
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                6
+On-line CPU(s) list:   0-5
+Thread(s) per core:    1
+Core(s) per socket:    1
+Socket(s):             6
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 45
+Model name:            Intel(R) Xeon(R) CPU E5-2690 0 @ 2.90GHz
+Stepping:              7
+CPU MHz:               2900.000
+BogoMIPS:              5800.00
+Hypervisor vendor:     VMware
+Virtualization type:   full
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              20480K
+NUMA node0 CPU(s):     0-5
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology tsc_reliable nonstop_tsc eagerfpu pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm tsc_adjust arat
+OPT
+total 0
+drwxr-xr-x. 6 karafadm karafadm 102 Oct 26 16:59 fuse
+dr-xr-xr-x. 3 root     root      30 Oct 26 14:24 python27
+10.14.2.175
+MEMORIA
+              total        used        free      shared  buff/cache   available
+Mem:           9.6G        4.7G        2.9G         71M        2.0G        4.5G
+Swap:          7.5G          0B        7.5G
+PARTICIONES
+Filesystem                           Size  Used Avail Use% Mounted on
+/dev/mapper/vg_root-lv_root          9.9G   72M  9.8G   1% /
+devtmpfs                             4.8G     0  4.8G   0% /dev
+tmpfs                                4.8G   60M  4.8G   2% /dev/shm
+tmpfs                                4.8G   12M  4.8G   1% /run
+tmpfs                                4.8G     0  4.8G   0% /sys/fs/cgroup
+/dev/mapper/vg_usr-lv_usr            9.9G  2.0G  8.0G  20% /usr
+/dev/mapper/vg_opt-lv_opt             20G  759M   20G   4% /opt
+/dev/mapper/vg_tmp-lv_tmp            1.9G  206M  1.7G  11% /tmp
+/dev/mapper/vg_home-lv_home          1.9G   33M  1.9G   2% /home
+/dev/mapper/vg_var-lv_var            3.9G  877M  3.0G  23% /var
+/dev/sda1                            497M  207M  290M  42% /boot
+/dev/mapper/clFuse03_vg-clFuse03_lv  100G  2.8G   98G   3% /shared
+tmpfs                                983M     0  983M   0% /run/user/1002
+PROCESADOR
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                6
+On-line CPU(s) list:   0-5
+Thread(s) per core:    1
+Core(s) per socket:    1
+Socket(s):             6
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 45
+Model name:            Intel(R) Xeon(R) CPU E5-2690 0 @ 2.90GHz
+Stepping:              7
+CPU MHz:               2900.000
+BogoMIPS:              5800.00
+Hypervisor vendor:     VMware
+Virtualization type:   full
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              20480K
+NUMA node0 CPU(s):     0-5
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology tsc_reliable nonstop_tsc eagerfpu pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm tsc_adjust arat
+OPT
+total 0
+drwxr-xr-x. 6 karafadm karafadm 102 Oct 26 17:00 fuse
+dr-xr-xr-x. 3 root     root      30 Oct 26 14:23 python27
+10.14.2.176
+MEMORIA
+              total        used        free      shared  buff/cache   available
+Mem:           9.6G        5.1G        3.6G         71M        928M        4.1G
+Swap:          7.5G          0B        7.5G
+PARTICIONES
+Filesystem                           Size  Used Avail Use% Mounted on
+/dev/mapper/vg_root-lv_root          9.9G   72M  9.8G   1% /
+devtmpfs                             4.8G     0  4.8G   0% /dev
+tmpfs                                4.8G   60M  4.8G   2% /dev/shm
+tmpfs                                4.8G   12M  4.8G   1% /run
+tmpfs                                4.8G     0  4.8G   0% /sys/fs/cgroup
+/dev/mapper/vg_usr-lv_usr            9.9G  2.0G  8.0G  20% /usr
+/dev/mapper/vg_opt-lv_opt             20G  759M   20G   4% /opt
+/dev/mapper/vg_home-lv_home          1.9G   33M  1.9G   2% /home
+/dev/mapper/vg_tmp-lv_tmp            1.9G  197M  1.7G  11% /tmp
+/dev/mapper/vg_var-lv_var            3.9G  846M  3.1G  22% /var
+/dev/sda1                            497M  207M  290M  42% /boot
+/dev/mapper/clFuse03_vg-clFuse03_lv  100G  2.8G   98G   3% /shared
+tmpfs                                983M     0  983M   0% /run/user/1002
+PROCESADOR
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                6
+On-line CPU(s) list:   0-5
+Thread(s) per core:    1
+Core(s) per socket:    1
+Socket(s):             6
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 45
+Model name:            Intel(R) Xeon(R) CPU E5-2690 0 @ 2.90GHz
+Stepping:              7
+CPU MHz:               2900.000
+BogoMIPS:              5800.00
+Hypervisor vendor:     VMware
+Virtualization type:   full
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              20480K
+NUMA node0 CPU(s):     0-5
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology tsc_reliable nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm epb tsc_adjust dtherm ida arat pln pts
+OPT
+total 0
+drwxr-xr-x. 6 karafadm karafadm 102 Oct 26 17:00 fuse
+dr-xr-xr-x. 3 root     root      30 Oct 26 14:24 python27
+10.14.2.177
+MEMORIA
+              total        used        free      shared  buff/cache   available
+Mem:           9.6G        4.6G        3.7G         71M        1.3G        4.6G
+Swap:          7.5G          0B        7.5G
+PARTICIONES
+Filesystem                           Size  Used Avail Use% Mounted on
+/dev/mapper/vg_root-lv_root          9.9G   72M  9.8G   1% /
+devtmpfs                             4.8G     0  4.8G   0% /dev
+tmpfs                                4.8G   60M  4.8G   2% /dev/shm
+tmpfs                                4.8G   12M  4.8G   1% /run
+tmpfs                                4.8G     0  4.8G   0% /sys/fs/cgroup
+/dev/mapper/vg_usr-lv_usr            9.9G  2.0G  8.0G  20% /usr
+/dev/mapper/vg_opt-lv_opt             20G  909M   19G   5% /opt
+/dev/mapper/vg_home-lv_home          1.9G   33M  1.9G   2% /home
+/dev/mapper/vg_tmp-lv_tmp            1.9G  197M  1.7G  11% /tmp
+/dev/mapper/vg_var-lv_var            3.9G  876M  3.0G  23% /var
+/dev/sda1                            497M  207M  290M  42% /boot
+/dev/mapper/clFuse03_vg-clFuse03_lv  100G  2.8G   98G   3% /shared
+tmpfs                                983M     0  983M   0% /run/user/1002
+PROCESADOR
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                6
+On-line CPU(s) list:   0-5
+Thread(s) per core:    1
+Core(s) per socket:    1
+Socket(s):             6
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 45
+Model name:            Intel(R) Xeon(R) CPU E5-2690 0 @ 2.90GHz
+Stepping:              7
+CPU MHz:               2900.000
+BogoMIPS:              5800.00
+Hypervisor vendor:     VMware
+Virtualization type:   full
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              20480K
+NUMA node0 CPU(s):     0-5
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology tsc_reliable nonstop_tsc eagerfpu pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm tsc_adjust arat
+OPT
+total 0
+drwxr-xr-x. 6 karafadm karafadm 102 Oct 26 17:01 fuse
+dr-xr-xr-x. 3 root     root      30 Oct 26 14:24 python27
+10.14.2.178
+MEMORIA
+              total        used        free      shared  buff/cache   available
+Mem:           9.6G        4.3G        4.6G         71M        673M        4.9G
+Swap:          7.5G          0B        7.5G
+PARTICIONES
+Filesystem                           Size  Used Avail Use% Mounted on
+/dev/mapper/vg_root-lv_root          9.9G   72M  9.8G   1% /
+devtmpfs                             4.8G     0  4.8G   0% /dev
+tmpfs                                4.8G   60M  4.8G   2% /dev/shm
+tmpfs                                4.8G   12M  4.8G   1% /run
+tmpfs                                4.8G     0  4.8G   0% /sys/fs/cgroup
+/dev/mapper/vg_usr-lv_usr            9.9G  2.0G  8.0G  20% /usr
+/dev/mapper/vg_tmp-lv_tmp            1.9G  197M  1.7G  11% /tmp
+/dev/mapper/vg_home-lv_home          1.9G   33M  1.9G   2% /home
+/dev/mapper/vg_opt-lv_opt             20G  758M   20G   4% /opt
+/dev/mapper/vg_var-lv_var            3.9G  875M  3.0G  23% /var
+/dev/sda1                            497M  207M  290M  42% /boot
+/dev/mapper/clFuse03_vg-clFuse03_lv  100G  2.8G   98G   3% /shared
+tmpfs                                983M     0  983M   0% /run/user/1002
+PROCESADOR
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                6
+On-line CPU(s) list:   0-5
+Thread(s) per core:    1
+Core(s) per socket:    1
+Socket(s):             6
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 45
+Model name:            Intel(R) Xeon(R) CPU E5-2690 0 @ 2.90GHz
+Stepping:              7
+CPU MHz:               2900.000
+BogoMIPS:              5800.00
+Hypervisor vendor:     VMware
+Virtualization type:   full
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              20480K
+NUMA node0 CPU(s):     0-5
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology tsc_reliable nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm epb tsc_adjust dtherm ida arat pln pts
+OPT
+total 0
+drwxr-xr-x. 6 karafadm karafadm 102 Oct 26 17:01 fuse
+dr-xr-xr-x. 3 root     root      30 Oct 26 14:27 python27
